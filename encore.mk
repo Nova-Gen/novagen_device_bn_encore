@@ -172,3 +172,8 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_encore
 PRODUCT_DEVICE := encore
+
+# mmontuori mrom speed
+PRODUCT_COPY_FILES += \
+device/bn/encore/config/sysctl.conf:system/etc/sysctl.conf
+# end of mmontuori change
