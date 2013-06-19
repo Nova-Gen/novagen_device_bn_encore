@@ -151,9 +151,7 @@ PRODUCT_PACKAGES += \
 # libraries needed for a particular device
 PRODUCT_PACKAGES += \
     libI420colorconvert \
-    libLCML \
     libOMX_Core \
-    libOMX.TI.AAC.decode \
     libOMX.TI.AAC.encode \
     libOMX.TI.AMR.decode \
     libOMX.TI.AMR.encode \
@@ -173,10 +171,10 @@ PRODUCT_PACKAGES += \
     libOMX.TI.Video.Decoder \
     libOMX.TI.Video.encoder \
     libOMX.TI.VPP \
-    libOMX.TI.WBAMR.decode \
     libOMX.TI.WBAMR.encode \
     libOMX.TI.WMA.decode \
     libVendor_ti_omx
+
 
 PRODUCT_PACKAGES += \
         libskiahw
