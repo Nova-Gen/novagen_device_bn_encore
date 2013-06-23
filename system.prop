@@ -10,15 +10,10 @@ ro.pm.awake_on_usb=1
 ro.cwm.forbid_format=/boot
 #ro.config.disable_hw_accel=true
 persist.sys.usb.config=mtp,adb
-#ro.sf.hwrotation=270
+ro.sf.hwrotation=270
 ro.emmc=1
 ro.sf.lcd_density=160
 
 ## Enable OMAP stuffs
 com.ti.omap_enhancement=true
 opencore.asmd=1
-
-# Default theme
-persist.sys.themeId=CyanOrangen Cobalt
-persist.sys.themePackageName=com.dustinb.theme.cyanorangencobalt
-

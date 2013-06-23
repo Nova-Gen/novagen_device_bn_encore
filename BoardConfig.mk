@@ -82,7 +82,7 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 BOARD_USES_UBOOT := true
 
 # Inline kernel building config
-TARGET_KERNEL_CONFIG := encore_mrom_cm10.1_defconfig
+TARGET_KERNEL_CONFIG := encore_novagen_defconfig
 TARGET_KERNEL_SOURCE := kernel/bn/encore
 
 # Connectivity - Wi-Fi
@@ -137,7 +137,6 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/class/android_usb/android0/f_mass_stora
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_WPAN_DEVICE := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/bn/encore/bluetooth
 
 BOARD_HAVE_FAKE_GPS := true
 
